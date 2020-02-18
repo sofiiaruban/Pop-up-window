@@ -50,3 +50,80 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.burger-menu {
+	float: left;
+	display: block;
+	padding-top: 56px;
+	padding-left: 48px;
+	}
+.burger-line	{ 	
+	width: 48px;
+	height: 5px;
+	background: #000000;
+	margin-bottom: 5px;
+	}
+/*Modal box*/
+.modal-box{
+	display: none;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #000000;
+	position: fixed; 
+	z-index: 1; 
+} 
+.close {
+	color: #ffffff;
+	font-size: 48px;
+	position: absolute;
+	top:40px;
+	left: 32px;
+}
+.logo-modal {
+	width: 80px;
+	height: 48px;
+	display: block;
+	margin: 0 auto 80px;
+	padding-top: 48px;
+	margin-bottom: 124px;
+}
+.logo svg {
+	width: 100%;
+	color: #ffffff;
+}
+textarea {
+	background-color: #000000;
+}
+.nav-list {
+	display: flex;
+	justify-content: space-between;
+	font-size: 20px;
+	margin: 0 auto 80px;
+	width: 403px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+.contact form {
+	display: flex;
+	flex-direction: column;
+}
+.contact .message-wrapper {
+	display: flex;
+    border: 1px solid #ffffff;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 30px;
+    margin: 80px 52px 156px 52px;
+}
+.contact textarea {
+	border: none;
+	flex-grow: 1;
+	resize: none;
+}
+.contact button {
+	padding: 13px 60px;
+	text-transform: uppercase;
+	border: 1px solid #ffffff;
+	border-radius: 8px;
+	background-color: #ffffff;
+	color: #000000;
+}
